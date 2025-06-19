@@ -36,7 +36,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 100
                 }
             ],
             "description": "Creates a new circle."
@@ -45,7 +45,7 @@
             "atomType": "Input",
             "name": "name1",
             "x": 0.025384615384615384,
-            "y": 0.28398058252427183,
+            "y": 0.5218446601941747,
             "uniqueID": "8b5e395e-7f37-4dbe-8ea9-b705512945eb",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -69,6 +69,13 @@
             "ap2Primary": false,
             "ap1ID": "c4a2a8b6-88fa-4e65-89fe-d29f8d515a90",
             "ap2ID": "a0330c95-50bd-4177-9e6a-ef4c0518d9ee"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": "8b5e395e-7f37-4dbe-8ea9-b705512945eb",
+            "ap2ID": "c4a2a8b6-88fa-4e65-89fe-d29f8d515a90"
         }
     ],
     "unitsKey": "MM",
