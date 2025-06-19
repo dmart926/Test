@@ -4,11 +4,73 @@
     "x": 0,
     "y": 0,
     "uniqueID": "5eef9555-b526-4f90-8dd7-76380c81b20d",
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "name1",
+            "ioValue": 100
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "a0330c95-50bd-4177-9e6a-ef4c0518d9ee",
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "c4a2a8b6-88fa-4e65-89fe-d29f8d515a90"
+                }
+            ],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.43823038397328884,
+            "y": 0.41019417475728154,
+            "uniqueID": "c4a2a8b6-88fa-4e65-89fe-d29f8d515a90",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Input",
+            "name": "name1",
+            "x": 0.025384615384615384,
+            "y": 0.28398058252427183,
+            "uniqueID": "8b5e395e-7f37-4dbe-8ea9-b705512945eb",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.24707846410684473,
+            "y": 0.7257281553398058,
+            "uniqueID": "1ba6a23f-a0aa-4e46-aa88-fe30796f8610",
+            "ioValues": [],
+            "description": "Defines a mathematical constant.",
+            "value": 10
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "c4a2a8b6-88fa-4e65-89fe-d29f8d515a90",
+            "ap2ID": "a0330c95-50bd-4177-9e6a-ef4c0518d9ee"
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
